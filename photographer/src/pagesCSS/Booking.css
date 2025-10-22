@@ -1,0 +1,59 @@
+/* Чекбокс */
+input[type="radio"] {
+  width: auto;
+  margin-right: 0.75rem;
+  accent-color: rgb(63, 58, 58);
+}
+
+/* Файлове поле */
+input[type="file"] {
+  width: auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  background: white;
+  margin-bottom: 2rem;
+}
+
+input[type="file"]::file-selector-button {
+  padding: 0.5rem 1rem;
+  background: rgb(63, 58, 58);
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+
+/* Textarea */
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 120px;
+  margin-bottom: 2rem;
+  
+}
+
+/* Фокус-стилі для всіх полів */
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: rgb(63, 58, 58);
+  box-shadow: 0 0 0 2px rgba(63, 58, 58, 0.1);
+}
+
+.textForInput {
+    margin: 0;
+    display: block;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+    color: #333;
+}
+

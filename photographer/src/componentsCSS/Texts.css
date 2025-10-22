@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100..900&display=swap');
+
+.solidText {
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    font-size: 10rem;
+    margin: -0.3rem;
+    font-family: 'Bungee', sans-serif;
+}
+
+.outlinedText {
+    text-align: center;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+    color: transparent; 
+   
+    font-size: 10rem;
+    font-weight: 400;
+    margin: -3rem;
+    font-family: 'Bungee', sans-serif;
+}
+
+.textsDiv {
+  display: flex;
+  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: -90px;
+}
+
+/* Адаптація для телефонів */
+@media (max-width: 768px) {
+  .solidText {
+    font-size: 4rem;
+    margin: -0.1rem;
+  }
+  
+  .outlinedText {
+    font-size: 4rem;
+    margin: -1rem;
+    -webkit-text-stroke-width: 2px;
+  }
+  
+  .textsDiv {
+    padding-bottom: 30px;
+    gap: -40px;
+  }
+}
+
+/* Для дуже маленьких екранів */
+@media (max-width: 480px) {
+  .solidText {
+    font-size: 3rem;
+  }
+  
+  .outlinedText {
+    font-size: 3rem;
+    margin: -0.8rem;
+    -webkit-text-stroke-width: 1.5px;
+  }
+  
+  .textsDiv {
+    padding-bottom: 20px;
+    gap: -30px;
+  }
+}

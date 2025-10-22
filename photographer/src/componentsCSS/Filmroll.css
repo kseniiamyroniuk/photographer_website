@@ -1,0 +1,18 @@
+.film-frame {
+  position: relative;
+  background: #181818;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  margin: 2.5rem 0;
+
+}
+
+.film-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 7;
+  object-fit: cover;
+  border-radius: 1.2rem;
+
+}

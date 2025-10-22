@@ -1,0 +1,28 @@
+.gallery {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+    overflow-x: auto; 
+    padding: 1rem;
+    -webkit-overflow-scrolling: touch;
+}
+
+.gallery-item {
+    display: flex;
+    width: 70vw;
+    height: 70vw;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    scroll-snap-align: start;
+}
+
+Hide scrollbar for a cleaner look
+.gallery::-webkit-scrollbar {
+    display: none;
+}

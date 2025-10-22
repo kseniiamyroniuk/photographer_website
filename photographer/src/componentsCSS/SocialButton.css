@@ -1,0 +1,13 @@
+.social-button {
+    width: auto;
+    padding: 0.8rem 1.3rem;
+    background: transparent;
+    border-radius: 6rem;
+    border: 1px solid #000;
+    opacity: 0.8;
+    
+}
+
+.social-button:hover {
+    background-color: #f5f5f5;
+}
