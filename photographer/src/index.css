@@ -13,7 +13,7 @@
 
 #root {
   line-height: 1.5;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -23,6 +23,7 @@
   box-sizing: border-box;
   width: 100%;
   gap: 2rem;
+
 }
 
 

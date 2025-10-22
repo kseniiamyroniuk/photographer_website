@@ -10,7 +10,7 @@ function BookingPage() {
         <>
             <Texts text="booking"></Texts>
             <div>
-                <h1>Запис на зйомку</h1>
+                <h3>Запис на зйомку</h3>
                 <p>будь ласка, увійдіть до акаунтку, дякую</p> 
             </div>
           
